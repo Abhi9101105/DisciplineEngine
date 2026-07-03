@@ -132,7 +132,7 @@ const SCHEDULES = {
     { name: "Gate lecture", start: "14:00", end: "16:00", type: "gate" },
     { name: "Gate lecture", start: "16:00", end: "16:50", type: "gate" },
     { name: "Transition", start: "16:50", end: "17:00", type: "transition" },
-    { name: "Gym (Pull)", start: "17:00", end: "17:30", type: "gym" },
+    { name: "Gym (Legs)", start: "17:00", end: "17:30", type: "gym" },
     { name: "Snacks + freshup", start: "17:30", end: "18:00", type: "gym" },
     { name: "Gate lecture", start: "18:00", end: "20:00", type: "gate" },
     { name: "Dinner", start: "20:00", end: "20:30", type: "rest" },
@@ -210,7 +210,7 @@ const WORKOUT_SPLIT_MAPPING = {
   Wednesday: "Legs",
   Thursday: "Push",
   Friday: "Pull",
-  Saturday: "Pull",
+  Saturday: "Legs",
   Sunday: "Rest day"
 };
 
@@ -252,6 +252,7 @@ const dom = {
   nextTaskName: document.getElementById("next-task-name"),
   nextTaskTimeRange: document.getElementById("next-task-time-range"),
   
+  workoutSplitBadge: document.getElementById("workout-split-badge"),
   workoutWidgetProgress: document.getElementById("workout-widget-progress"),
   workoutWidgetStatus: document.getElementById("workout-widget-status"),
   dietWidgetProgress: document.getElementById("diet-widget-progress"),
