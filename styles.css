@@ -991,3 +991,145 @@ body {
   background: rgba(107, 114, 128, 0.1);
   color: var(--text-secondary);
 }
+
+/* Mobile Responsive Overrides */
+@media (max-width: 600px) {
+  body {
+    padding-bottom: 90px; /* Leave space for floating bottom bar */
+  }
+
+  /* Fixed Bottom Tab Bar */
+  .tabs-navigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.65rem 0.5rem;
+    background: rgba(7, 9, 14, 0.9);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: none;
+    z-index: 1000;
+    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.5);
+  }
+
+  .tabs-container {
+    background: transparent;
+    border: none;
+    padding: 0;
+    max-width: 100%;
+    box-shadow: none;
+  }
+
+  .tab-btn {
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.72rem;
+    padding: 0.25rem;
+    border-radius: 8px;
+  }
+
+  .tab-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .tab-btn.active {
+    background: rgba(255, 255, 255, 0.04);
+    color: #ffffff;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .tab-btn.active svg {
+    stroke: var(--color-gate);
+  }
+
+  /* Header adjustments */
+  .app-header {
+    padding: 1.25rem 1rem;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .brand {
+    align-items: center;
+    width: 100%;
+  }
+
+  .brand h1 {
+    font-size: 1.45rem;
+  }
+
+  .brand p {
+    font-size: 0.75rem;
+  }
+
+  .time-widgets {
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .clock-widget {
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    padding-bottom: 0.75rem;
+  }
+
+  .countdown-widget {
+    width: 100%;
+    justify-content: center;
+    border-left: none;
+    border-top: 2px solid var(--color-gate);
+    padding-top: 0.75rem;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  /* Grid Layout collapses */
+  .app-content {
+    padding: 1rem;
+  }
+
+  .focus-card {
+    padding: 1.5rem 1.25rem;
+    min-height: 250px;
+  }
+
+  .focus-title {
+    font-size: 1.65rem;
+  }
+
+  .timeline-item {
+    grid-template-columns: 85px 8px 1fr;
+    padding: 0.75rem 0.85rem;
+  }
+
+  .timeline-time {
+    font-size: 0.78rem;
+  }
+
+  .timeline-details {
+    padding-left: 0.85rem;
+  }
+
+  .timeline-name {
+    font-size: 0.85rem;
+  }
+
+  .weekday-selector {
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .weekday-selector::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
+  .exercise-item {
+    padding: 0.85rem;
+  }
+}
+
