@@ -20,7 +20,7 @@ const SCHEDULES = {
     { name: "Snacks + freshup", start: "17:30", end: "18:00", type: "gym" },
     { name: "Gate lecture", start: "18:00", end: "20:00", type: "gate" },
     { name: "Dinner", start: "20:00", end: "20:30", type: "rest" },
-    { name: "Tcs exam", start: "20:30", end: "23:30", type: "tcs" },
+    { name: "Gate practice", start: "20:30", end: "23:30", type: "gate" },
     { name: "Gate lecture", start: "23:30", end: "00:30", type: "gate", endIsNextDay: true },
     { name: "Prep for sleep", start: "00:30", startIsNextDay: true, end: "00:45", endIsNextDay: true, type: "transition" },
     { name: "Sleep", start: "00:45", startIsNextDay: true, end: "06:45", endIsNextDay: true, type: "rest" }
@@ -44,7 +44,7 @@ const SCHEDULES = {
     { name: "Snacks + freshup", start: "17:30", end: "18:00", type: "gym" },
     { name: "Gate lecture", start: "18:00", end: "20:00", type: "gate" },
     { name: "Dinner", start: "20:00", end: "20:30", type: "rest" },
-    { name: "Tcs exam", start: "20:30", end: "23:30", type: "tcs" },
+    { name: "Gate practice", start: "20:30", end: "23:30", type: "gate" },
     { name: "Gate lecture", start: "23:30", end: "00:30", type: "gate", endIsNextDay: true },
     { name: "Prep for sleep", start: "00:30", startIsNextDay: true, end: "00:45", endIsNextDay: true, type: "transition" },
     { name: "Sleep", start: "00:45", startIsNextDay: true, end: "06:45", endIsNextDay: true, type: "rest" }
@@ -68,7 +68,7 @@ const SCHEDULES = {
     { name: "Snacks + freshup", start: "17:30", end: "18:00", type: "gym" },
     { name: "Gate lecture", start: "18:00", end: "20:00", type: "gate" },
     { name: "Dinner", start: "20:00", end: "20:30", type: "rest" },
-    { name: "Tcs exam", start: "20:30", end: "23:30", type: "tcs" },
+    { name: "Gate practice", start: "20:30", end: "23:30", type: "gate" },
     { name: "Gate lecture", start: "23:30", end: "00:30", type: "gate", endIsNextDay: true },
     { name: "Prep for sleep", start: "00:30", startIsNextDay: true, end: "00:45", endIsNextDay: true, type: "transition" },
     { name: "Sleep", start: "00:45", startIsNextDay: true, end: "06:45", endIsNextDay: true, type: "rest" }
@@ -92,7 +92,7 @@ const SCHEDULES = {
     { name: "Snacks + freshup", start: "17:30", end: "18:00", type: "gym" },
     { name: "Gate lecture", start: "18:00", end: "20:00", type: "gate" },
     { name: "Dinner", start: "20:00", end: "20:30", type: "rest" },
-    { name: "Tcs exam", start: "20:30", end: "23:30", type: "tcs" },
+    { name: "Gate practice", start: "20:30", end: "23:30", type: "gate" },
     { name: "Gate lecture", start: "23:30", end: "00:30", type: "gate", endIsNextDay: true },
     { name: "Prep for sleep", start: "00:30", startIsNextDay: true, end: "00:45", endIsNextDay: true, type: "transition" },
     { name: "Sleep", start: "00:45", startIsNextDay: true, end: "06:45", endIsNextDay: true, type: "rest" }
@@ -115,7 +115,7 @@ const SCHEDULES = {
     { name: "Snacks + freshup", start: "17:30", end: "18:00", type: "gym" },
     { name: "Gate lecture", start: "18:00", end: "20:00", type: "gate" },
     { name: "Dinner", start: "20:00", end: "20:30", type: "rest" },
-    { name: "Tcs exam", start: "20:30", end: "23:30", type: "tcs" },
+    { name: "Gate practice", start: "20:30", end: "23:30", type: "gate" },
     { name: "Gate lecture", start: "23:30", end: "00:30", type: "gate", endIsNextDay: true },
     { name: "Prep for sleep", start: "00:30", startIsNextDay: true, end: "00:45", endIsNextDay: true, type: "transition" },
     { name: "Sleep", start: "00:45", startIsNextDay: true, end: "06:45", endIsNextDay: true, type: "rest" }
@@ -136,7 +136,7 @@ const SCHEDULES = {
     { name: "Snacks + freshup", start: "17:30", end: "18:00", type: "gym" },
     { name: "Gate lecture", start: "18:00", end: "20:00", type: "gate" },
     { name: "Dinner", start: "20:00", end: "20:30", type: "rest" },
-    { name: "Tcs exam", start: "20:30", end: "23:30", type: "tcs" },
+    { name: "Gate practice", start: "20:30", end: "23:30", type: "gate" },
     { name: "Gate lecture", start: "23:30", end: "00:30", type: "gate", endIsNextDay: true },
     { name: "Prep for sleep", start: "00:30", startIsNextDay: true, end: "00:45", endIsNextDay: true, type: "transition" },
     { name: "Sleep", start: "00:45", startIsNextDay: true, end: "06:45", endIsNextDay: true, type: "rest" }
@@ -157,7 +157,7 @@ const SCHEDULES = {
     { name: "Snacks + freshup", start: "17:30", end: "18:00", type: "gym" },
     { name: "Gate lecture", start: "18:00", end: "20:00", type: "gate" },
     { name: "Dinner", start: "20:00", end: "20:30", type: "rest" },
-    { name: "Tcs exam", start: "20:30", end: "23:30", type: "tcs" },
+    { name: "Gate practice", start: "20:30", end: "23:30", type: "gate" },
     { name: "Gate lecture", start: "23:30", end: "00:30", type: "gate", endIsNextDay: true },
     { name: "Prep for sleep", start: "00:30", startIsNextDay: true, end: "00:45", endIsNextDay: true, type: "transition" },
     { name: "Sleep", start: "00:45", startIsNextDay: true, end: "06:45", endIsNextDay: true, type: "rest" }
